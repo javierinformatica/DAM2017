@@ -16,6 +16,7 @@ public class Calculadora {
 
 	}
 	public int divi(int x, int y){
+		System.out.println("ESTOY DIVIDIENDO");
 		if(y!=0){
 			return (x / y);
 		}else{
