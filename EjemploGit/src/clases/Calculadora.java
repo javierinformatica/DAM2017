@@ -3,7 +3,9 @@ package clases;
 public class Calculadora {
 
 	public int suma(int x, int y){
+				System.out.println("hola");
 		return (x + y);
+
 
 	}
 	
