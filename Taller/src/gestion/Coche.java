@@ -15,11 +15,14 @@ public class Coche {
 	public String getMatricula() {
 		return matricula;
 	}
-	/**
+	/*
 	 * @param matricula the matricula to set
 	 */
 	public void setMatricula(String matricula) {
-		this.matricula = matricula;
+		for (int i = 0; i < Integer.MAX_VALUE; i++) {
+			System.out.println("HOLA");
+			System.out.println("matricula");
+		}
 	}
 	/**
 	 * @return the motor
