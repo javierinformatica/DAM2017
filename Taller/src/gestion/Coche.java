@@ -19,8 +19,16 @@ public class Coche {
 	/**
 	 * @param matricula the matricula to set
 	 */
+<<<<<<< HEAD
 	public void setCaballos (int aCaballos){
 		this.caballos = aCaballos ;
+=======
+	public void setMatricula(String matricula) {
+		this.matricula = matricula;
+		int algo=0;
+		algo=1;
+		algo=2;
+>>>>>>> branch 'master' of https://github.com/javierinformatica/DAM2017
 	}
 	/**
 	 * @return the motor
