@@ -8,6 +8,7 @@ package gestion;
 public class Coche {
 	String matricula;
 	int motor;
+	int ruedas;
 	/**
 	 * @return the matricula
 	 */
