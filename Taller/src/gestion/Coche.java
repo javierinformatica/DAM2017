@@ -20,6 +20,9 @@ public class Coche {
 	 */
 	public void setMatricula(String matricula) {
 		this.matricula = matricula;
+		int algo=0;
+		algo=1;
+		algo=2;
 	}
 	/**
 	 * @return the motor
