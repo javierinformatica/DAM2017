@@ -9,6 +9,7 @@ public class Coche {
 	String matricula;
 	int motor;
 	int ruedas;
+	int caballos;
 	/**
 	 * @return the matricula
 	 */
@@ -18,8 +19,8 @@ public class Coche {
 	/**
 	 * @param matricula the matricula to set
 	 */
-	public void setMatricula(String matricula) {
-		this.matricula = matricula;
+	public void setCaballos (int aCaballos){
+		this.caballos = aCaballos ;
 	}
 	/**
 	 * @return the motor
